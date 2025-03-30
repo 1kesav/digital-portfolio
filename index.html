@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Portfolio</h1>
+            <nav>
+                <a href="#About">About</a>
+                <a href="#Education">Education</a>
+                <a href="#Skills">Skills</a>
+                <a href="#Experience">Experience</a>
+                <a href="#Resume">Resume</a>
+                <a href="#Contact">Contact</a>
+            </nav>
+        </header>
+        <article>
+            <section class="hero-Section">
+                <section class="hero-left">
+                    <p>Name : Bharath Kesav.K</p>
+                    <p>Designation : Student</p>
+                    <p>DOB : 20-04-2006</p>
+                    <p>Gender : Male</p>
+                    <p>Nationality : Indian</p>
+                </section>
+                <section class="hero-right">
+                    <img src="photo.jpg" alt="Photo" width="600px">
+                </section>
+            </section>
+            <hr>
+            <article class="other-Details">
+                <div id="About">
+                    <h2>About Me : </h2>
+                    <p>Passionate BCA 2nd-year student at S.A College of Arts and Science with strong skills in Java and Python. I am eager to leverage my knowledge in technology and contribute effectively to innovative projects. Constantly seeking to learn and grow.</p>
+                </div>
+                <div id="Education">
+                    <h2>Education : </h2>
+                    <p>Bachelor of Computer Applications (BCA)
+                        S.A College of Arts and Science, Chennai (2023 - 2026)
+                        Currently in 2nd Year</p>
+                </div>
+                <div id="Skills">
+                    <h2>Skills : </h2>
+                    <ol>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>Ms Office</li>
+                        <li>Front-End</li>
+                    </ol>
+                </div>
+                <div id="Experience">
+                    <h2>Experience : </h2>
+                    <p>- Knowledgeable in Excel and PowerPoint for efficient data management and presentations.<br/>
+                        - Participated in SkillEarthon, showcasing problem-solving and teamwork skills.<br/>
+                        - Developed academic projects using Java and Python.</p>
+                </div>
+                <div id="Resume">
+                    <h2>Resume</h2>
+                    <a href="">Download CV</a>
+                </div>
+                <div id="Contact">
+                    <h2>Contact Me : </h2>
+                    <p>Mobile: +91 99387 63055</p>
+                    <p>E-Mail: <a href="mailto:bharathkesav9@gmial.com">bharathkesav9@gmail.com</a> </p>
+                    <p>Location: Chennai</p>
+                    <p>Instagram: <a href="https://www.instagram.com/its_me_kesav_k">its_me_kesav_k</a> </p>
+                </div>
+            </article>
+        </article>
+    </main>
+
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 40px;
+    height: 10vh;
+    /* ! border: 2px solid; */
+    background-color: aquamarine;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+h1{
+    font-size: 42px;
+}
+
+nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav a:hover{
+    background-color: black;
+    color: antiquewhite;
+}
+
+article{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.hero-Section{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.hero-left{
+    width: 50%;
+    margin:10%;
+    border: 2px solid;
+    font-size: 40px;
+    padding: 20px;
+    padding-left: 90px;
+    border-radius: 15px;
+    background-color: bisque;
+}
+
+.hero-right{
+    width: 50%;
+    /* ! border: 2px solid; */
+    margin-top: 40px;
+}
+
+.hero-right img{
+    border-radius: 20px;
+    margin-right: 40px;
+}
+
+
+div{
+    background-color: blanchedalmond;
+    margin: 10px 20px;
+    margin-left: 70px;
+    padding: 30px 30px;
+    border-radius: 20px;
+}
+
+.other-Details div p,li{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.other-Details div a{
+    text-decoration: none;
+}
+
+
+    </style>
+</body>
+
+</html>
